@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bryan's JavaScript Quiz</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <header>
+        <!-- highscores-->
+        <div id="highscore">
+            <h1>HIGH SCORES</h1>
+        </div>
+
+        <!-- timer -->
+        <div>
+            <h3 class="time head">Remaining Time:</h3>
+            <div id="timer" class="countdown"></div>
+        </div>
+    </header>
+    <main class="q-container">
+        <div class="header">
+            <h1>Java Code Challenge</h1>
+            <p>Test your knowledg by answering these JavaScript coding questions. But...you are timed. Any incorrect
+                answers will result in a loss of seven seconds!</p>
+        </div>
+        <div class="btn-container">
+            <div class="start-btn">
+                <button id="clicked" class="btn">Start Quiz</button>
+            </div>
+        </div>
+        <div class="q-box" id=>
+            <div class="every-answer"></div>
+        </div>
+        <div class="answer"></div>
+        <div class="initials"></div>
+        <div id="results"></div>
+
+    </main>
+
+    <script src="./js.js"></script>
+</body>
+
+</html>
